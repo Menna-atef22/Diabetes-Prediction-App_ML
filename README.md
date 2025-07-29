@@ -86,3 +86,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+
+## 📁 File Structure
+
+├── app.py # Main Streamlit application
+├── models/ # Trained models and preprocessing tools
+│ ├── model.json # XGBoost model saved after training
+│ └── scaler.pkl # StandardScaler used to scale input features
+├── images/ # Screenshots, app visuals, or icons used in the UI
+├── requirements.txt # Python dependencies for running the app
+
