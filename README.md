@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="web_images/preview.png" alt="Diabetes App Cover" width="600"/>
+  <img src="web_images/preview.png" alt="Diabetes App Cover" />
 </p>
 
 # 🩺 Diabetes Prediction App (XGBoost-powered)
