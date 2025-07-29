@@ -96,8 +96,8 @@ You can explore the model training and data preprocessing steps directly in Goog
 
 Here’s a quick look at the app in action:
 
-![Normal Person](web_images/Normal.png)
-![Diabetes Person](web_images/Diabetes.png)
+![Normal Person](web_images/Normal.jpeg)
+![Diabetes Person](web_images/Diabetes.jpeg)
 
 
 
