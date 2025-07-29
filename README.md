@@ -92,6 +92,14 @@ You can explore the model training and data preprocessing steps directly in Goog
 
 🔗 [**Open Colab Notebook**](https://colab.research.google.com/drive/1vK1Utzq9VVvzOk407Ox2fnaKqVnS8Zyg?usp=sharing)  
 
+## Web App
+
+Here’s a quick look at the app in action:
+
+![Normal Person](web_images/normal.png)
+![Diabetes Person](web_images/diabetes.png)
+
+
 
 ## 📁 File Structure
 
