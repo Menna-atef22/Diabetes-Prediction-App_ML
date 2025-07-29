@@ -54,3 +54,23 @@ Built with:
 
 ---
 
+---
+
+## GridSearchCV & Hyperparameter Tuning
+
+To improve model performance and compare classifiers effectively, I used `GridSearchCV` as a tool for hyperparameter tuning across different models. This allowed me to:
+
+ - Systematically try different model types (SVM, KNN, Decision Tree, etc.)
+
+ - Evaluate their performance using cross-validation
+
+ - Find optimal hyperparameters such as `max_depth`, `learning_rate`, `n_estimators`, etc.
+
+Example for XGBoost:
+```
+XGBClassifier(learning_rate=0.01, max_depth=4, n_estimators=500)
+```
+ - Reduced `max_depth` to avoid overfitting
+
+ - Tuned `n_estimators` to balance accuracy and generalization
+
