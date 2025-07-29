@@ -7,40 +7,50 @@
 This web app predicts the likelihood of diabetes using patient information such as glucose level, BMI, age, and more. Built with **Streamlit**, trained on a cleaned and scaled dataset, and deployed with an **XGBoost** model for high accuracy.
 
 ---
+## Overview
 
-## 🎯 Preview
+This web app allows users to input health data (glucose, BMI, age, etc.) and get predictions on diabetes risk. It gives personalized advice and visual feedback based on the result.
 
-| Patient at Risk | Healthy Patient |
-|-----------------|-----------------|
-| ![](web_images/diabetes.png) | ![](web_images/normal.png) |
+Built with:
 
-> ✨ The app dynamically shows tips, GIFs, and positive messages depending on the prediction.
+- Python
+- Streamlit
+- scikit-learn
+- XGBoost
 
 ---
 
-## 🧠 Model Development Process
+## Data Preprocessing
 
-### 📊 1. Data Cleaning & Scaling
-- Handled zero/missing values appropriately.
+- Handled missing and zero values carefully.
 - Applied `StandardScaler` to normalize the data.
+- Visualized feature distribution and checked for outliers.
 
-### 📈 2. Correlation Analysis
-A heatmap was used to analyze correlations between variables like:
-- Glucose 🔼
-- BMI 🧍‍♀️
-- Age 🎂  
-These had the highest impact on diabetes prediction.
+---
 
-### 🤖 3. Model Testing
-I tested several models:
-- Logistic Regression  
-- SVM  
-- Decision Tree  
-- Random Forest  
-- **XGBoost** ✅ (Best performance)
+## Feature Analysis
 
-### 🔍 4. Hyperparameter Tuning
-Used **GridSearchCV** to tune models, especially XGBoost:
-```python
-xgb = XGBClassifier(learning_rate=0.01, max_depth=4, n_estimators=500)
-xgb.fit(X_train_scaled, y_train)
+- Used correlation heatmap to study features.
+- Found **Glucose**, **BMI**, and **Age** to have the strongest correlation with diabetes.
+- Removed irrelevant features and kept the most impactful ones.
+
+---
+
+## 🤖 Model Development
+
+### Tried multiple classifiers:
+
+- Logistic Regression
+- K-Nearest Neighbors
+- Decision Tree
+- Random Forest
+- **XGBoost (Best performance)**
+
+### Why XGBoost?
+
+- More accurate for tabular medical data.
+- Handles imbalanced and noisy data better.
+- Allows fine control via hyperparameters.
+
+---
+
