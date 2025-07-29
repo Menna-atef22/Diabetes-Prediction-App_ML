@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cover.png" alt="Diabetes App Cover" width="600"/>
+  <img src="images/preview.png" alt="Diabetes App Cover" width="600"/>
 </p>
 
 # 🩺 Diabetes Prediction App (XGBoost-powered)
@@ -12,7 +12,7 @@ This web app predicts the likelihood of diabetes using patient information such 
 
 | Patient at Risk | Healthy Patient |
 |-----------------|-----------------|
-| ![](images/diabetes_alert.gif) | ![](images/healthy_ok.png) |
+| ![](images/diabetes.png) | ![](images/normal.png) |
 
 > ✨ The app dynamically shows tips, GIFs, and positive messages depending on the prediction.
 
