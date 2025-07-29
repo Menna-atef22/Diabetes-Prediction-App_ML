@@ -284,29 +284,22 @@ plt.show()
 !pip install pyngrok
 !pip install streamlit pyngrok scikit-learn pandas numpy matplotlib seaborn
 
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
 import pickle
+import os
 
-url = 'https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv'
-df = pd.read_csv(url)
+# إنشاء مجلد models لو مش موجود
+os.makedirs("models", exist_ok=True)
 
-X = df.drop('Outcome', axis=1)
-y = df['Outcome']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# حفظ الموديل المدرب
+xgb.save_model("models/model.json")
 
-
-model = SVC(probability=True)
-model.fit(X_train, y_train)
-
-with open('model.pkl', 'wb') as f:
-    pickle.dump(model, f)
+# حفظ الscaler داخل نفس المجلد
+with open("models/scaler.pkl", "wb") as f:
+    pickle.dump(scaler, f)
 
 from google.colab import files
-files.download('model.pkl')
+files.download("models/model.json")
+files.download("models/scaler.pkl")
 
-import pickle
-
-with open('model.pkl', 'wb') as file:
-    pickle.dump(model, file)
+import os
+os.listdir()
