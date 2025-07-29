@@ -105,7 +105,6 @@ Here’s a quick look at the app in action:
 
 
 ```bash
-.
 ├── app.py                   # Main Streamlit application
 ├── diabetes.py              # Model is Code
 ├── Diabetes.ipynb           # Jupyter Notebook for training and tuning the model
