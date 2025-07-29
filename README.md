@@ -96,8 +96,10 @@ You can explore the model training and data preprocessing steps directly in Goog
 
 Here’s a quick look at the app in action:
 
-![Normal Person](web_images/Normal.jpeg)
-![Diabetes Person](web_images/Diabetes.jpeg)
+<p align="center">
+  <img src="web_images/Normal.jpeg" alt="Normal Person" width="45%" style="display:inline-block; margin-right:10px;" />
+  <img src="web_images/Diabetes.jpeg" alt="Diabetes Person" width="45%" style="display:inline-block;" />
+</p>
 
 
 
@@ -124,7 +126,7 @@ Made with by **Menna Atef**
 
 This project was built as part of the **NTI Artificial Intelligence Scholarship** 🇪🇬
 
-- 📧 Email: [mennaatef222006@gmail.com](mailto:mennaatef222006@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/menna-atef-05355b32a](https://www.linkedin.com/in/menna-atef-05355b32a/)  
-- 🎓 NTI Scholarship: [nti.sci.eg](https://nti.sci.eg/)
+- Email: [mennaatef222006@gmail.com](mailto:mennaatef222006@gmail.com)  
+- LinkedIn: [linkedin.com/in/menna-atef-05355b32a](https://www.linkedin.com/in/menna-atef-05355b32a/)  
+- NTI Scholarship: [nti.sci.eg](https://nti.sci.eg/)
 
