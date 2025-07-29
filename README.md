@@ -86,6 +86,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## 🌐 Try on Google Colab
+
+You can explore the model training and data preprocessing steps directly in Google Colab:
+
+🔗 [**Open Colab Notebook**](https://colab.research.google.com/drive/1vK1Utzq9VVvzOk407Ox2fnaKqVnS8Zyg?usp=sharing)  
+
 
 ## 📁 File Structure
 
