@@ -96,17 +96,26 @@ You can explore the model training and data preprocessing steps directly in Goog
 
 Here’s a quick look at the app in action:
 
-![Normal Person](web_images/normal.png)
-![Diabetes Person](web_images/diabetes.png)
+![Normal Person](web_images/Normal.png)
+![Diabetes Person](web_images/Diabetes.png)
 
 
 
 ## 📁 File Structure
 
-├── app.py # Main Streamlit application
-├── models/ # Trained models and preprocessing tools
-│ ├── model.json # XGBoost model saved after training
-│ └── scaler.pkl # StandardScaler used to scale input features
-├── images/ # Screenshots, app visuals, or icons used in the UI
-├── requirements.txt # Python dependencies for running the app
+
+```bash
+.
+├── app.py                   # Main Streamlit application
+├── diabetes.py              # Model is Code
+├── Diabetes.ipynb           # Jupyter Notebook for training and tuning the model
+├── models/                  # Trained models and preprocessing tools
+│   ├── model.json           # XGBoost model saved after training
+│   └── scaler.pkl           # StandardScaler used to scale input features
+├── images/                  # General project or UI screenshots
+├── web_images/              # Images specifically used in the web app interface
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
+
 
