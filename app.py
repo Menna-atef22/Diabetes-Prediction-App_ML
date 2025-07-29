@@ -25,7 +25,7 @@ def display_tips():
     for tip in get_diabetes_tips():
         st.markdown(f"- {tip}")
 
-st.markdown("<h1 style='text-align: center'>🩺 Diabetes Prediction App</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center'>🩺 Diabetes Prediction </h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center;'>Enter patient information below to predict diabetes risk</h4>", unsafe_allow_html=True)
 
 st.markdown("### Patient Information")
