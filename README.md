@@ -97,8 +97,8 @@ You can explore the model training and data preprocessing steps directly in Goog
 Here’s a quick look at the app in action:
 
 <p align="center">
-  <img src="web_images/Normal.jpeg" alt="Normal Person" width="60%" style="display:inline-block; margin-right:10px;" />
-  <img src="web_images/Diabetes.jpeg" alt="Diabetes Person" width="30%" style="display:inline-block;" />
+  <img src="web_images/Normal.jpeg" alt="Normal Person" width="45%" style="display:inline-block; margin-right:10px;" />
+  <img src="web_images/Diabetes.jpeg" alt="Diabetes Person" width="45%" style="display:inline-block;" />
 </p>
 
 
