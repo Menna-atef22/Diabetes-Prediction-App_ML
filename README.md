@@ -117,14 +117,14 @@ Here’s a quick look at the app in action:
 └── README.md                # Project documentation
 ```
 
-## 📅 Contact & Credit
+
+## Contact & Credit
 
 Made with by **Menna Atef**
 
 This project was built as part of the **NTI Artificial Intelligence Scholarship** 🇪🇬
 
-- Email: [menna@example.com](mailto:menna@example.com)
-- LinkedIn: [linkedin]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/menna-atef-05355b32a/))
-- NTI Scholarship: [nti.sci.eg](https://nti.sci.eg/)
-
+- 📧 Email: [mennaatef222006@gmail.com](mailto:mennaatef222006@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/menna-atef-05355b32a](https://www.linkedin.com/in/menna-atef-05355b32a/)  
+- 🎓 NTI Scholarship: [nti.sci.eg](https://nti.sci.eg/)
 
