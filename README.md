@@ -54,7 +54,6 @@ Built with:
 
 ---
 
----
 
 ## GridSearchCV & Hyperparameter Tuning
 
@@ -73,4 +72,17 @@ XGBClassifier(learning_rate=0.01, max_depth=4, n_estimators=500)
  - Reduced `max_depth` to avoid overfitting
 
  - Tuned `n_estimators` to balance accuracy and generalization
+
+## Run Locally
+
+ 1. Clone the repo
+
+ 2. Install packages
+ ```
+pip install -r requirements.txt
+```
+ 3. Run app
+  ```
+streamlit run app.py
+```
 
