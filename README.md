@@ -86,6 +86,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Fot Try it : https://diabetes-prediction-appml-wbad89uaax9t8xdahthgfg.streamlit.app/
 ## 🌐 Try on Google Colab
 
 You can explore the model training and data preprocessing steps directly in Google Colab:
