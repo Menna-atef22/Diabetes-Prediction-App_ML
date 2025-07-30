@@ -56,7 +56,7 @@ if st.button("🔍 Predict Diabetes Risk", use_container_width=True):
         with col1:
             display_tips()
         with col2:
-            st.image("images\Gemini_Generated_Image_cvsmkkcvsmkkcvsm-Picsart-AiImageEnhancer-removebg-preview.png", width=200 )
+            st.image("images/Gemini_Generated_Image_cvsmkkcvsmkkcvsm-Picsart-AiImageEnhancer-removebg-preview.png", width=200 )
     else:
         st.success("✅ This person **is not at risk** of diabetes.")
         col1, col2 = st.columns([2, 1])
